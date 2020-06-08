@@ -1,0 +1,22 @@
+html {
+    box-sizing: inherit;
+}
+
+section {
+    width: 250px;
+    height: 240px;
+    border: 5px dotted;
+    border-color: green;
+}
+
+p {
+    width: 100%;
+    border: 5px solid;
+    border-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
