@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    size: 16px;
+}
+
+header hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+}
+
+main h2 {
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+img {
+    border: 2px solid;
+    padding: 5px;
+}
+
+.first-image {
+    float: right;
+    margin-left: 15px;
+}
+
+.second-image {
+    float: left;
+    margin-right: 15px;
+}
+
+blockquote {
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 30px;
+    max-width: 40%;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+blockquote footer {
+    text-align: right;
+}

@@ -1,0 +1,26 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.viewport {
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+.card {
+    position: absolute;
+}
+
+.card.first {
+    top: 100px;
+    bottom: 0px;
+    left: 700px;
+    right: 0px;
+}
+
+.card.second {
+    top: 600px;
+    bottom: 0px;
+    left: 700px;
+    right: 0px;
+}
