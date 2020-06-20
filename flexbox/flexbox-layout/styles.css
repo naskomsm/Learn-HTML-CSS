@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #F0F8FF;
+}
+
+p {
+    padding-left: 15px;
+}
+
+header,
+main,
+aside,
+footer {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px 2px black;
+}
+
+header {
+    flex-basis: 1000px;
+    min-height: 100px;
+}
+
+main {
+    min-height: 250px;
+    flex-basis: 690px;
+}
+
+aside {
+    flex-basis: 270px;
+}
+
+footer {
+    flex-grow: 1;
+    min-height: 100px;
+}

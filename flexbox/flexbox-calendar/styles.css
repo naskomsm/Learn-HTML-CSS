@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.week :nth-child(1) {
+    flex-basis: 1000px;
+    flex-grow: 2;
+}
