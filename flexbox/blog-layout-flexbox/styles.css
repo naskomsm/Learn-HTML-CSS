@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    size: 16px;
+    background-color: rgb(238, 238, 238);
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    size: 1em;
+}
+
+
+/* Current Task */
+
+.page {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+img {
+    border: 2px solid;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0, 0.25);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+aside ul li {
+    color: rgb(0, 153, 0);
+}
+
+hr {
+    height: 2px;
+    background-color: black;
+    border: none;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+hr {
+    flex-basis: 1200px;
+}
+
+.first-half {
+    max-width: 70%;
+    margin-right: 25px;
+}
+
+main {
+    display: inline-flex;
+}
+
+.first-image {
+    float: right;
+    margin-left: 20px;
+}
+
+.second-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.quote {
+    display: inline-flex;
+}
+
+aside {
+    margin-left: 50px;
+}
+
+.quote p {
+    max-width: 47%;
+}
+
+
+/*  */
+
+.site-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main h2 {
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+
+blockquote {
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+}
+
+blockquote p {
+    display: contents;
+}
+
+blockquote footer {
+    text-align: right;
+}

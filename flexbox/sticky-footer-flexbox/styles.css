@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    flex-flow: row wrap;
+}
+
+
+/*  */
+
+header {
+    border-bottom: 3px solid black;
+    flex-basis: 100%;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+main {
+    margin: 10px;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    flex-basis: 100%;
+}
+
+footer p {
+    margin-left: 20px;
+}
