@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    min-height: 380px;
+    background-image: url("./images/map.jpg");
+    background-size: cover;
+}
+
+.logo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.fa {
+    color: white;
+}
+
+footer {
+    background-color: grey;
+    padding: 30px 55px 30px 55px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-right: 10px;
+    color: white;
+}
+
+.packing {
+    background-image: url("./images/packing.jpg");
+    background-size: cover;
+    max-width: 400px;
+    min-height: 500px;
+}
+
+.trip {
+    background-image: url("./images/planning.jpg");
+    background-size: cover;
+    max-width: 500px;
+    min-height: 300px;
+}
+
+.budget {
+    background-image: url("./images/budget.jpg");
+    background-size: cover;
+    max-width: 500px;
+    min-height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+}
