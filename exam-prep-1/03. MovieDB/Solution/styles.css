@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(53, 53, 53);
+    min-height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+header span {
+    background-color: yellow;
+    font-size: 25px;
+    margin: 2px 0px 2px 25px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.main-div {
+    max-height: 500px;
+    max-width: 1150px;
+    display: flex;
+    margin: 45px 0px 45px 0px;
+}
+
+.main-div img {
+    height: 500px;
+}
+
+iframe {
+    width: 900px;
+    margin-left: 80px;
+}
+
+.classics-movies img {
+    max-height: 300px;
+    width: 24%;
+}
+
+h1 {
+    color: yellow;
+}
+
+.classics-div,
+.trending-div {
+    width: 1150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.trending-div {
+    margin-top: 30px;
+}
+
+.classics-div {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.footer-elements .icons {
+    color: white;
+    font-size: 35px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-elements {
+    display: flex;
+    flex-flow: column wrap
+}
+
+.fa {
+    margin: 10px;
+}
+
+.footer-text {
+    color: white;
+}

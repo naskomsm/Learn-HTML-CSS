@@ -6,6 +6,13 @@ body {
     margin: 0 auto;
 }
 
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 25px 0px 25px 0px;
+}
+
 nav {
     display: flex;
     flex-flow: row wrap;
@@ -17,15 +24,23 @@ header {
     min-height: 380px;
     background-image: url("./images/map.jpg");
     background-size: cover;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.right-elements {
+    margin: 10px 25px 10px 10px;
 }
 
 .logo {
     max-width: 50px;
     max-height: 50px;
+    margin: 10px;
 }
 
 .fa {
     color: white;
+    margin-left: 15px;
 }
 
 footer {
@@ -54,20 +69,38 @@ li {
     background-size: cover;
     max-width: 400px;
     min-height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.packing h2 {
+    padding-top: 15px;
 }
 
 .trip {
     background-image: url("./images/planning.jpg");
     background-size: cover;
     max-width: 500px;
-    min-height: 300px;
+    min-height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.trip h2 {
+    margin-top: 0px;
 }
 
 .budget {
     background-image: url("./images/budget.jpg");
     background-size: cover;
     max-width: 500px;
-    min-height: 300px;
+    min-height: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    padding-left: 15px;
 }
 
 .container {
@@ -78,4 +111,48 @@ li {
 
 h2 {
     color: white;
+}
+
+button {
+    color: white;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    padding-top: 160px;
+}
+
+.content h1 {
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+    outline: 1px black;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.content button {
+    background-color: rgb(49, 49, 190);
+    border-radius: 4px;
+    padding: 5px;
+    width: 20%;
+    align-self: center;
+}
+
+main h1 {
+    color: grey;
+    width: 930px;
+    margin-top: 0px;
+}
+
+.container {
+    max-height: 500px;
+    max-width: 930px;
 }
