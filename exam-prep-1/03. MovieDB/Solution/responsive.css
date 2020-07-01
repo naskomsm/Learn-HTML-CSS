@@ -1,0 +1,22 @@
+@media (min-width: 560px) and (max-width: 1250px) {
+    .main-div img {
+        display: none;
+    }
+    .main-div iframe {
+        margin-left: 0px;
+    }
+    .main-div {
+        height: 400px;
+        width: 550px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 560px) {
+    .main-div img {
+        display: none;
+    }
+    .main-div iframe {
+        height: 80%;
+        width: 50%;
+    }
+}
