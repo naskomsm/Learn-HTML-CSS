@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gelasio';
+}
+
+body {
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    margin-right: 35px;
+    font-size: 22px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.login button {
+    margin-right: 20px;
+    background-color: rgb(100, 50, 50);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+.logo h1,
+nav ul li {
+    color: rgb(100, 50, 50);
+}
+
+
+/* MAIN */
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.first-half {
+    background: url('./Media/craving.jpg');
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* change later */
+    min-height: 300px;
+    background-size: cover;
+}
+
+.second-half {
+    background: url('./Media/background.jpg');
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.craving h1 {
+    color: white;
+}
+
+.craving div i {
+    color: grey;
+}
+
+.search-bar {
+    background-color: rgb(204, 204, 204);
+    opacity: 0.6;
+    width: 80%;
+    margin-left: 30px;
+}
+
+.search-bar .fa {
+    margin: 5px
+}
+
+.first img,
+.second img {
+    width: 60%;
+    height: 100%;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    flex-flow: row wrap;
+    width: 950px;
+    margin: 25px;
+}
+
+.coctails-info,
+.cookies-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    width: 40%;
+}
+
+.coctails-info h1,
+.coctails-info p,
+.cookies-info h1,
+.cookies-info p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.coctails-info p,
+.cookies-info p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.coctails-info button {
+    color: white;
+    background-color: rgb(100, 50, 50);
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+}
+
+.third {
+    display: flex;
+    flex-flow: column wrap;
+    width: 880px;
+    margin: 25px;
+}
+
+.toolbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolbox p {
+    background-color: rgb(216, 216, 216);
+    padding: 10px 35px 10px 35px;
+    font-size: 20px;
+}
+
+.item img {
+    height: 150px;
+    width: 150px;
+}
+
+.item p {
+    text-align: center;
+    margin: 0;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 15px 15px 0px 15px;
+}
+
+.shop-now {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.shop-now button {
+    color: white;
+    background-color: tomato;
+    border: 0;
+    padding: 10px 90px 10px 90px;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    ;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
+.footer-first {
+    margin-left: 25px;
+}
+
+.footer-last {
+    margin-right: 25px;
+}
