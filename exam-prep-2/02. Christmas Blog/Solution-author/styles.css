@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    background-image: url("../Images/background3.jpeg");
+    background-image: url("./Images/background3.jpeg");
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
