@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+ul li {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+.first,
+.inside-second {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.first-right-side,
+.second-left-side {
+    width: 50%;
+}
+
+.first-left-side {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: center;
+}
+
+.second-right-side {
+    display: flex;
+    flex-flow: column wrap;
+    width: 50%;
+    justify-content: space-evenly;
+    padding-left: 40px;
+}
+
+.first-left-side img,
+.first-right-side img {
+    width: 100%;
+}
+
+.second-left-side img {
+    width: 100%;
+}
+
+.first-left-side-main {
+    width: 90%;
+}
+
+.first-left-side-footer button {
+    border: none;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 35px 15px 35px;
+    border-radius: 35px;
+}
+
+.powerbeats p {
+    text-align: right;
+}
+
+.powerbeats h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.first-left-side-footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.first-left-side-footer h1 {
+    margin-right: 20px;
+}
+
+.second {
+    background-color: rgb(230, 230, 230);
+}
+
+.inside-second,
+.inside-first {
+    padding: 40px;
+}
+
+.inside-first {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inner-third {
+    background: grey;
+    padding: 20px;
+}
+
+.third-up {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.third-up-right {
+    align-items: center;
+    display: flex;
+}
+
+.third-up-right h1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.third-down h1 {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.third-down {
+    display: flex;
+    justify-content: center;
+}
+
+.fourth {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fourth .first-image {
+    width: 50%;
+}
+
+.fourth .first-image img {
+    width: 100%;
+}
+
+.second-image {
+    display: flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+
+.give-life {
+    height: 98%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.give-life-img {
+    height: 98%;
+}
+
+.give-life-img img {
+    height: 100%;
+}
+
+.give-life h1 {
+    font-size: 120px;
+}
+
+.second-image {
+    background-color: rgb(192, 192, 192);
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.give-life p {
+    font-size: 35px;
+}
+
+.give-life p b {
+    color: red;
+}
+
+.first-image img {
+    display: flex;
+    height: 100%;
+}
+
+footer div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
