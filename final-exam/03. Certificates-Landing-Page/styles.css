@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Lato", "Helvetica", sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+h1,
+h2,
+h3,
+li,
+button,
+p {
+    font-family: "Montserrat", "Lato", "Helvetica", sans-serif;
+    color: grey;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    box-shadow: 0 1px 11px -6px black
+}
+
+.right-header {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.left-header {
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+header button {
+    background-color: #9A5DC6;
+    color: white;
+    border-radius: 20px;
+    width: 80px;
+    border: none;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 55px;
+}
+
+.first-left,
+.second-left {
+    width: 60%;
+    padding-left: 55px;
+}
+
+.first-right,
+.second-right {
+    width: 40%;
+}
+
+.first-info,
+.second-info {
+    padding-right: 87px;
+}
+
+.second {
+    background-color: #35364D;
+    color: white;
+}
+
+.second-left h1,
+.second-info {
+    color: white;
+}
+
+.second-right {
+    position: relative;
+    top: 80px;
+}
+
+.third-left {
+    width: 30%;
+    padding-left: 55px;
+}
+
+.third-right {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.second-left {
+    position: relative;
+    top: 50px;
+}
+
+.third-right h1,
+.third-right p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.third-right button {
+    color: #9A5DC6;
+    background-color: white;
+    border-color: #9A5DC6;
+    border-radius: 40px;
+    width: 220px;
+    height: 50px;
+    border: 1px solid #9A5DC6;
+}
+
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #2C2C3A;
+    padding: 50px;
+}
+
+footer h2 {
+    padding: 0px;
+    margin: 0px;
+    color: #9A5DC6;
+}
+
+footer li {
+    color: white;
+    padding: 5px;
+}
+
+footer ul {
+    padding: 0px;
+}
+
+.footer-first,
+.footer-first ul,
+.footer-second,
+.footer-second ul,
+.footer-third,
+.footer-third ul {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-fourth i {
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.icons-info p {
+    padding-top: 10px;
+    padding: 0px
+}
+
+.footer-fourth {
+    position: relative;
+    right: 110px;
+}
+
+.icons-info p {
+    color: white;
+}

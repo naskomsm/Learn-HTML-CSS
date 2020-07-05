@@ -1,0 +1,16 @@
+@media (min-width: 0) and (max-width: 884px) {
+    .newsletter-boxes {
+        display: flex;
+        flex-flow: column;
+    }
+    .newsletter-bottom {
+        display: flex;
+        flex-flow: row;
+    }
+    .newsletter-bottom-content {
+        text-align: inherit;
+    }
+    .bottom-logo {
+        width: 15%;
+    }
+}

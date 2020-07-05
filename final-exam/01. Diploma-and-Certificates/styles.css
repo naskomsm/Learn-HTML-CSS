@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    opacity: 0.5;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    opacity: 0.5;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background-color: #234465;
+    max-width: 1200px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    z-index: -2;
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+}
+
+.dots {
+    display: flex;
+    align-self: flex-end;
+    position: relative;
+    right: 70px;
+    top: 51px;
+}
+
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block;
+    transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-overlay-wrap .svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+img {
+    margin-left: 15px;
+}
+
+.dots-right {
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 815px;
+    left: 1036px;
+}
