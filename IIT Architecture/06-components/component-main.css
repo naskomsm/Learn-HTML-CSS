@@ -1,0 +1,138 @@
+.main-wrapper {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.main-text {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.first-main,
+.second-main {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    flex-flow: row wrap;
+    color: rgb(155, 155, 155);
+}
+
+.first-main-left,
+.second-main-left {
+    max-width: 40%;
+}
+
+.first-main-right,
+.second-main-right {
+    max-width: 60%;
+    padding: 0px 0px 0px 90px;
+    flex-flow: row wrap;
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+.blue-softuni-img,
+.orange-softuni-img {
+    position: relative;
+    top: 55px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.blue-softuni-logo,
+.orange-softuni-logo {
+    position: relative;
+    right: 50px;
+    right: 235px;
+    bottom: 60px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgba(41, 57, 75, .25);
+}
+
+.second-main-right .first-image,
+.second-main-right .second-image {
+    position: relative;
+    height: 250px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.second-main-right .first-image {
+    position: relative;
+    top: 55px;
+}
+
+.second-main {
+    margin-bottom: 35px;
+}
+
+.vision-wrapper {
+    background-color: #36A1F3;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+}
+
+.instructors-wrapper {
+    color: rgb(155, 155, 155);
+    margin-bottom: 80px;
+}
+
+.instructors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.instructor-card {
+    box-shadow: 0 6px 10px 0 rgba(41, 57, 75, .25);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.instructor-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.instructor-card h4,
+.instructor-card p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card-info {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.scholarship-wrapper {
+    color: white;
+    background-color: #42abf8;
+    padding: 25px;
+    border-radius: 10px;
+    max-height: 200px;
+}
+
+.woman-teaching-medium {
+    position: relative;
+    border-radius: 10px;
+    left: 225px;
+    box-shadow: 0 6px 10px 0 rgba(41, 57, 75, .25);
+}
+
+hr {
+    position: relative;
+    top: 100px;
+    width: 1290px;
+    margin-bottom: 40px;
+}
