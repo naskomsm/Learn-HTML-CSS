@@ -1,0 +1,98 @@
+.navigation {
+    max-width: 1290px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 6px 10px 0 rgba(41, 57, 75, .25);
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 80px;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navigation-logo {
+    display: flex;
+    margin-right: auto;
+    width: 120px;
+}
+
+.navigation-logo img {
+    border-style: none;
+    max-width: 100%;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+.navigation-list {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+}
+
+.navigation-list-items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 5px 0 auto;
+}
+
+.navigation-auth-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0px 9px 0px 9px;
+    color: #3e4c5d;
+}
+
+.navigation-list-item {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-list-item:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.navigation-auth-buttons .log-in-btn {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.navigation-auth-buttons .sign-up-btn {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.log-in-btn {
+    border-radius: 8px;
+    background-color: #42abf8;
+    color: white;
+}
+
+.sign-up-btn {
+    margin: 0px 7px;
+    color: #36A1F3;
+    background-color: inherit;
+}
+
+.navigation-list-item:nth-child(1) {
+    border-top: 3px solid #36A1F3;
+}
