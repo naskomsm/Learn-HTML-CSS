@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.wrapper__colors {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

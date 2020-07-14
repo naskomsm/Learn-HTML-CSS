@@ -1,0 +1,277 @@
+.wrapper__colors__color {
+    margin: 10px;
+    min-width: 320px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entity {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.color--green,
+.color--red {
+    min-width: 490px;
+}
+
+
+/* 
+.color--secondary__entity {
+    background-color: #234465;
+}
+
+.color--grey__entity {
+    background-color: #565656;
+}
+
+.color--green__entity {
+    background-color: #029A3C;
+}
+
+.color--red__entity {
+    background-color: #FC4C50;
+} */
+
+.color--primary__entity:nth-child(2) {
+    background-color: #FFA000;
+}
+
+.color--primary__entity:nth-child(3) {
+    background-color: #FFF8E1;
+}
+
+.color--primary__entity:nth-child(4) {
+    background-color: #FFF8E1;
+}
+
+.color--primary__entity:nth-child(5) {
+    background-color: #FFEDB3;
+}
+
+.color--primary__entity:nth-child(6) {
+    background-color: #FFE183;
+}
+
+.color--primary__entity:nth-child(7) {
+    background-color: #FFD650;
+}
+
+.color--primary__entity:nth-child(8) {
+    background-color: #FFCB29;
+}
+
+.color--primary__entity:nth-child(9) {
+    background-color: #FFC309;
+}
+
+.color--primary__entity:nth-child(10) {
+    background-color: #FFB401;
+}
+
+.color--primary__entity:nth-child(11) {
+    background-color: #FF9100;
+}
+
+.color--primary__entity:nth-child(12) {
+    background-color: #FF7100;
+}
+
+
+/*  */
+
+.color--secondary__entity:nth-child(2) {
+    background-color: #234465;
+    color: white;
+}
+
+.color--secondary__entity:nth-child(3) {
+    background-color: #E4F0F4;
+}
+
+.color--secondary__entity:nth-child(4) {
+    background-color: #BEDAE6;
+}
+
+.color--secondary__entity:nth-child(5) {
+    background-color: #99C3D7;
+}
+
+.color--secondary__entity:nth-child(6) {
+    background-color: #78ACC6;
+}
+
+.color--secondary__entity:nth-child(7) {
+    background-color: #629CBC;
+}
+
+.color--secondary__entity:nth-child(8) {
+    background-color: #4F8DB2;
+}
+
+.color--secondary__entity:nth-child(9) {
+    background-color: #4480A7;
+}
+
+.color--secondary__entity:nth-child(10) {
+    background-color: #397096;
+}
+
+.color--secondary__entity:nth-child(11) {
+    background-color: #306085;
+}
+
+.color--secondary__entity:nth-child(12) {
+    background-color: #203D5B;
+    color: white;
+}
+
+
+/*  */
+
+.color--grey__entity:nth-child(2) {
+    background-color: #565656;
+    color: white;
+}
+
+.color--grey__entity:nth-child(3) {
+    background-color: #F8F8F8;
+}
+
+.color--grey__entity:nth-child(4) {
+    background-color: #F1F1F1;
+}
+
+.color--grey__entity:nth-child(5) {
+    background-color: #E6E6E6;
+}
+
+.color--grey__entity:nth-child(6) {
+    background-color: #D6D6D6;
+}
+
+.color--grey__entity:nth-child(7) {
+    background-color: #B2B2B2;
+}
+
+.color--grey__entity:nth-child(8) {
+    background-color: #919191;
+}
+
+.color--grey__entity:nth-child(9) {
+    background-color: #696969;
+    color: white;
+}
+
+.color--grey__entity:nth-child(10) {
+    background-color: #565656;
+    color: white;
+}
+
+.color--grey__entity:nth-child(11) {
+    background-color: #383838;
+    color: white;
+}
+
+.color--grey__entity:nth-child(12) {
+    background-color: #181818;
+    color: white;
+}
+
+
+/*  */
+
+.color--green__entity:nth-child(2) {
+    background-color: #029A3C;
+}
+
+.color--green__entity:nth-child(3) {
+    background-color: #E5F4E8;
+}
+
+.color--green__entity:nth-child(4) {
+    background-color: #C0E4C6;
+}
+
+.color--green__entity:nth-child(5) {
+    background-color: #97D3A2;
+}
+
+.color--green__entity:nth-child(6) {
+    background-color: #6AC27D;
+}
+
+.color--green__entity:nth-child(7) {
+    background-color: #46B661;
+}
+
+.color--green__entity:nth-child(8) {
+    background-color: #12A945;
+}
+
+.color--green__entity:nth-child(9) {
+    background-color: #029A3C;
+}
+
+.color--green__entity:nth-child(10) {
+    background-color: #008831;
+}
+
+.color--green__entity:nth-child(11) {
+    background-color: #007726;
+}
+
+.color--green__entity:nth-child(12) {
+    background-color: #005912;
+    color: white;
+}
+
+
+/*  */
+
+.color--red__entity:nth-child(2) {
+    background-color: #FC4C50;
+}
+
+.color--red__entity:nth-child(3) {
+    background-color: #FFEBEF;
+}
+
+.color--red__entity:nth-child(4) {
+    background-color: #FFCDD3;
+}
+
+.color--red__entity:nth-child(5) {
+    background-color: #F7999B;
+}
+
+.color--red__entity:nth-child(6) {
+    background-color: #F07073;
+}
+
+.color--red__entity:nth-child(7) {
+    background-color: #FC4C50;
+}
+
+.color--red__entity:nth-child(8) {
+    background-color: #FF3632;
+}
+
+.color--red__entity:nth-child(9) {
+    background-color: #F32B33;
+}
+
+.color--red__entity:nth-child(10) {
+    background-color: #E11E2D;
+}
+
+.color--red__entity:nth-child(11) {
+    background-color: #D41325;
+}
+
+.color--red__entity:nth-child(12) {
+    background-color: #C50018;
+}
