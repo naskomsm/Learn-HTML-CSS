@@ -1,0 +1,54 @@
+.footer {
+    .grey {
+        background-color: #919191;
+        min-height: 12px;
+        margin-top: 116px;
+    }
+    .black {
+        max-height: 312px;
+        display: flex;
+        background-color: #565656;
+        align-items: flex-start;
+        justify-content: space-around;
+        .big-eye {
+            position: relative;
+            bottom: 91px;
+        }
+        ul {
+            margin: 100px 0px 0px 0px;
+            padding: 0px;
+            h4 {
+                margin: 0px;
+                padding: 0px;
+                font-size: 18px;
+                line-height: 22px;
+                color: #E6E6E6;
+                margin-top: 12px;
+            }
+            li {
+                color: #E6E6E6;
+                list-style-type: none;
+                margin: 12px 0px 12px 0px;
+                &:hover {
+                    color: #41BEAD;
+                }
+            }
+        }
+        .findUs {
+            p {
+                max-width: 180px;
+                color: #919191;
+            }
+            .icons {
+                display: flex;
+                &:hover {
+                    cursor: pointer;
+                }
+                img {
+                    margin-right: 30px;
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import url('../utilities/selectors.scss');
+.btn {
+    @extend %baseBtn;
+}
+
+.btn--secondary {
+    @extend %baseBtn;
+    @extend %btn--secondary;
+}
+
+.btn--program {
+    @extend %baseBtn;
+    @extend %btn--program;
+}
+
+.programs__cards__card--icon {
+    margin-right: 32px;
+}

@@ -1,0 +1,52 @@
+@import '../utilities/selectors.scss';
+.programs.container {
+    .info {
+        .centered.centered__container {
+            p {
+                color: #565656;
+            }
+            h1 {
+                color: #41BEAD;
+            }
+        }
+    }
+    .cards {
+        display: flex;
+        .card--blue {
+            @extend %program--card;
+            @extend %card--paragraph;
+            header {
+                @extend %card--header;
+                h2 {
+                    color: #44A9F8;
+                }
+            }
+            background: #E3F3FD;
+            border: 4px solid #44A9F8;
+            margin-right: 16px;
+            button {
+                @extend %baseBtn;
+                @extend %btn--secondary;
+                @extend %btn--program
+            }
+        }
+        .card--green {
+            @extend %program--card;
+            @extend %card--paragraph;
+            header {
+                @extend %card--header;
+                h2 {
+                    color: #00AF9B;
+                }
+            }
+            background: #DFF4F1;
+            border: 4px solid #00AF9B;
+            margin-left: 16px;
+            button {
+                @extend %baseBtn;
+                @extend %btn--secondary;
+                @extend %btn--program
+            }
+        }
+    }
+}
