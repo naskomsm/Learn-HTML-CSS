@@ -1,0 +1,14 @@
+@import '../utilities/colors.scss';
+%baseButton {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.20);
+    border-radius: 100px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: $orange-secondary-800;
+    &:hover {
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    }
+}

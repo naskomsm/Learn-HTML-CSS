@@ -1,0 +1,16 @@
+@import '../utilities/selectors.scss';
+@import '../utilities/colors.scss';
+.btn-small {
+    @extend %baseButton;
+    width: 82px;
+    height: 36px;
+    padding: 10px 22px;
+    font-size: 13px;
+}
+
+.btn-large {
+    @extend %baseButton;
+    width: 163px;
+    height: 48px;
+    padding: 14px 32px;
+}
