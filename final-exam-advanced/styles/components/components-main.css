@@ -206,50 +206,86 @@ main .program .information .dropdowns .dropdown {
   font-weight: bold;
 }
 
-main .classes {
+main .certificate-wrapper {
   margin-top: 64px;
-}
-
-main .classes .container .certificate {
   margin-bottom: 106px;
-  align-items: center;
-  display: flex;
-  flex-flow: row;
 }
 
-main .classes .container .certificate .image p {
+main .certificate-wrapper .container {
+  justify-content: space-between;
+  display: flex;
+}
+
+main .certificate-wrapper .container .certificate-img {
+  max-height: 265px;
+}
+
+main .certificate-wrapper .container .certificate-img p {
   position: relative;
-  top: 165px;
+  margin: 0px;
+  top: 140px;
   left: 100px;
 }
 
-main .classes .container .certificate .text {
-  margin-right: 241px;
-  width: 608px;
+main .certificate-wrapper .container .certificate {
+  align-items: center;
+  max-width: 608px;
   display: flex;
 }
 
-main .classes .container .certificate .text img {
+main .certificate-wrapper .container .certificate .medal {
   position: relative;
-  bottom: 35px;
   right: 32px;
+  bottom: 35px;
 }
 
-main .classes .container .certificate .text .information {
-  display: flex;
-  flex-flow: column;
-}
-
-main .classes .container .certificate .text .information h2 {
-  color: #565656;
-  font-weight: 600;
+main .certificate-wrapper .container .certificate h2 {
   margin: 0px;
 }
 
-main .classes .container .certificate .text p {
-  color: #565656;
+main .certificate-wrapper .container .certificate .text {
+  margin-right: 32px;
 }
 
-main .classes .container .time {
+main .classes {
+  margin-bottom: 148px;
+}
+
+main .classes .container {
   display: flex;
+}
+
+main .classes .container h2 {
+  margin: 0px;
+}
+
+main .classes .container .time,
+main .classes .container .additional {
+  display: flex;
+  max-width: 608px;
+  width: 100%;
+}
+
+main .classes .container .time .time-icon,
+main .classes .container .additional .time-icon {
+  position: relative;
+  bottom: 145px;
+}
+
+main .classes .container .time,
+main .classes .container .pipe {
+  margin-right: 32px;
+}
+
+main .classes .container .time img {
+  right: 32px;
+}
+
+main .classes .container .additional .lamp {
+  position: relative;
+  bottom: 150px;
+}
+
+main .classes .container .additional .text {
+  margin-left: 32px;
 }

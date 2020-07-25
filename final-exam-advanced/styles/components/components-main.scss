@@ -176,46 +176,73 @@ main {
             }
         }
     }
-    .classes {
+    .certificate-wrapper {
         margin-top: 64px;
+        margin-bottom: 106px;
         .container {
-            .certificate {
-                margin-bottom: 106px;
-                align-items: center;
-                display: flex;
-                flex-flow: row;
-                .image {
-                    p {
-                        position: relative;
-                        top: 165px;
-                        left: 100px;
-                    }
-                }
-                .text {
-                    margin-right: 241px;
-                    width: 608px;
-                    img {
-                        position: relative;
-                        bottom: 35px;
-                        right: 32px;
-                    }
-                    display: flex;
-                    .information {
-                        display: flex;
-                        flex-flow: column;
-                        h2 {
-                            color: $grey-700;
-                            font-weight: 600;
-                            margin: 0px;
-                        }
-                    }
-                    p {
-                        color: $grey-700;
-                    }
+            .certificate-img {
+                max-height: 265px;
+                p {
+                    position: relative;
+                    margin: 0px;
+                    top: 140px;
+                    left: 100px;
                 }
             }
-            .time {
+            justify-content: space-between;
+            display: flex;
+            .certificate {
+                align-items: center;
+                .medal {
+                    position: relative;
+                    right: 32px;
+                    bottom: 35px;
+                }
+                max-width: 608px;
                 display: flex;
+                h2 {
+                    margin: 0px;
+                }
+                .text {
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+    .classes {
+        margin-bottom: 148px;
+        .container {
+            h2 {
+                margin: 0px;
+            }
+            display: flex;
+            .time,
+            .additional {
+                .time-icon {
+                    position: relative;
+                    bottom: 145px;
+                }
+                display: flex;
+                max-width: 608px;
+                width: 100%;
+            }
+            .time,
+            .pipe {
+                margin-right: 32px;
+            }
+            .time {
+                img {
+                    right: 32px;
+                }
+            }
+            .additional {
+                .lamp {
+                    position: relative;
+                    bottom: 150px;
+                }
+                .text {
+                    margin-left: 32px;
+                }
             }
         }
     }

@@ -1,0 +1,71 @@
+@import '../utilities/colors.scss';
+footer {
+    .grey {
+        height: 12px;
+        background-color: $grey-500;
+    }
+    .black {
+        .big-eye {
+            img {
+                position: relative;
+                bottom: 91px;
+            }
+        }
+        justify-content: space-between;
+        padding: 0px 75px 0px 75px;
+        display: flex;
+        max-height: 312px;
+        height: 100%;
+        background-color: $grey-700;
+        .uls {
+            display: flex;
+            ul {
+                list-style: none;
+                padding: 0px 24px 0px 0px;
+                li {
+                    padding-bottom: 12px;
+                    color: $grey-200;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-transform: none;
+                }
+            }
+        }
+        h5 {
+            margin: 0px;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            font-family: 'Lato', sans-serif;
+            color: $white;
+        }
+        .kids,
+        .allCourses,
+        .initiatives,
+        .findUs {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+        .allCourses {
+            padding-bottom: 90px;
+        }
+        .findUs {
+            p {
+                margin-top: 48px;
+                max-width: 177px;
+                color: $grey-500;
+            }
+            padding-bottom: 30px;
+            h5 {
+                margin-bottom: 24px;
+            }
+            .icons {
+                img {
+                    margin-right: 30px;
+                }
+            }
+        }
+    }
+}
