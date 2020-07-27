@@ -74,3 +74,18 @@ footer .black .findUs h5 {
 footer .black .findUs .icons img {
   margin-right: 30px;
 }
+
+footer .uls ul li:hover {
+  color: #41BEAD;
+  cursor: pointer;
+}
+
+footer .icons img {
+  width: 28px;
+  height: 28px;
+}
+
+footer .icons img:hover {
+  filter: invert(66%) sepia(81%) saturate(306%) hue-rotate(122deg) brightness(84%) contrast(91%);
+  cursor: pointer;
+}

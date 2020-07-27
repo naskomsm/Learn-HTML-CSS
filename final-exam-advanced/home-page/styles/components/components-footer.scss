@@ -68,4 +68,18 @@ footer {
             }
         }
     }
+    .uls ul li {
+        &:hover {
+            color: $green-primary-300;
+            cursor: pointer;
+        }
+    }
+    .icons img {
+        width: 28px;
+        height: 28px;
+        &:hover {
+            filter: invert(66%) sepia(81%) saturate(306%) hue-rotate(122deg) brightness(84%) contrast(91%);
+            cursor: pointer;
+        }
+    }
 }
