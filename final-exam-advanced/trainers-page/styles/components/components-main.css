@@ -1,0 +1,80 @@
+main .people {
+  margin-top: 96px;
+}
+
+main .people .horizontal-pipe {
+  margin-bottom: 96px;
+}
+
+main .people .bosses {
+  margin-bottom: 96px;
+  display: flex;
+}
+
+main .people .bosses .profile-pic {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 32px;
+  border-radius: 50%;
+  border: 8px solid #41BEAD;
+}
+
+main .people .bosses .vqra {
+  margin-right: 32px;
+  display: flex;
+}
+
+main .people .bosses .vqra .grey-p {
+  color: #B2B2B2;
+  margin-bottom: 24px;
+}
+
+main .people .bosses .vqra h3,
+main .people .bosses .vqra p {
+  margin: 0px;
+  padding: 0px;
+  color: #565656;
+}
+
+main .people .bosses .vqra h3 {
+  margin-bottom: 8px;
+  color: #41BEAD;
+}
+
+main .people .bosses .vqra .text {
+  max-width: 409px;
+}
+
+main .people .teachers .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .people .teachers .grey-p {
+  color: #B2B2B2;
+  margin-bottom: 24px;
+}
+
+main .people .teachers .row .person {
+  display: flex;
+  flex-flow: column;
+}
+
+main .people .teachers .row .person img {
+  align-self: center;
+  width: 175px;
+  height: 172px;
+  border-radius: 50%;
+  border: 8px solid #41BEAD;
+}
+
+main .people .teachers h3,
+main .people .teachers p {
+  margin: 0px;
+  padding: 0px;
+}
+
+main .people .teachers h3 {
+  margin: 24px 0px 8px 0px;
+  color: #41BEAD;
+}

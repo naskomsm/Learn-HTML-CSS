@@ -1,0 +1,73 @@
+@import '../utilities/colors.scss';
+main {
+    .people {
+        margin-top: 96px;
+        .horizontal-pipe {
+            margin-bottom: 96px;
+        }
+        .bosses {
+            margin-bottom: 96px;
+            .profile-pic {
+                display: flex;
+                align-self: flex-start;
+                margin-right: 32px;
+                border-radius: 50%;
+                border: 8px solid $green-primary-300;
+            }
+            display: flex;
+            .vqra {
+                margin-right: 32px;
+                display: flex;
+                .grey-p {
+                    color: $grey-400;
+                    margin-bottom: 24px;
+                }
+                h3,
+                p {
+                    margin: 0px;
+                    padding: 0px;
+                    color: $grey-700;
+                }
+                h3 {
+                    margin-bottom: 8px;
+                    color: $green-primary-300;
+                }
+                .text {
+                    max-width: 409px;
+                }
+            }
+        }
+        .teachers {
+            .row {
+                display: flex;
+                justify-content: space-between;
+            }
+            .grey-p {
+                color: $grey-400;
+                margin-bottom: 24px;
+            }
+            .row {
+                .person {
+                    display: flex;
+                    flex-flow: column;
+                    img {
+                        align-self: center;
+                        width: 175px;
+                        height: 172px;
+                        border-radius: 50%;
+                        border: 8px solid $green-primary-300;
+                    }
+                }
+            }
+            h3,
+            p {
+                margin: 0px;
+                padding: 0px;
+            }
+            h3 {
+                margin: 24px 0px 8px 0px;
+                color: $green-primary-300;
+            }
+        }
+    }
+}

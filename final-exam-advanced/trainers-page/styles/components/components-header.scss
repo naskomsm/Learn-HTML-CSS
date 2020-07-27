@@ -1,0 +1,45 @@
+@import '../utilities/colors.scss';
+header {
+    nav {
+        .container {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .navigation-wrapper {
+                display: flex;
+                flex-flow: row wrap;
+                article {
+                    img {
+                        margin: 0px 32px 0px 32px;
+                    }
+                }
+            }
+            .logo {
+                display: flex;
+                .arrow {
+                    margin-right: 16px;
+                }
+            }
+            section {
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+    .info {
+        height: 302px;
+        flex-flow: column;
+        background-color: $orange-secondary-600;
+        h1,
+        p {
+            color: $white;
+            padding: 0px;
+            text-align: center;
+            margin: 0px;
+        }
+        p {
+            max-width: 860px;
+            margin-top: 24px;
+        }
+    }
+}
