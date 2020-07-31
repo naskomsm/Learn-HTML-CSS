@@ -1,0 +1,146 @@
+@import '../utilities/colors.scss';
+main {
+    .map {
+        background-image: url('../../assets/images/Map.png');
+        height: 500px;
+        background-size: cover;
+        .contact-card {
+            h3 {
+                color: $green-primary-300;
+            }
+            p {
+                color: $grey-700;
+            }
+            .time {
+                color: $orange-secondary-800;
+            }
+            background-color: $white;
+            position: absolute;
+            padding: 32px;
+            box-shadow: 0 1px 1px 0 rgba(0,
+            0,
+            0,
+            0.14),
+            0 2px 1px -1px rgba(0,
+            0,
+            0,
+            0.12),
+            0 1px 3px 0 rgba(0,
+            0,
+            0,
+            0.20);
+            border-radius: 12px;
+            width: 583px;
+            height: 446px;
+            top: 202px;
+            left: 75px;
+            .info {
+                flex-flow: row wrap;
+                display: flex;
+                .info-card {
+                    margin-right: 24px;
+                }
+                .working-time {
+                    margin: 0px;
+                    ;
+                    .content {
+                        .inner-content.first {
+                            margin-bottom: 18px;
+                        }
+                        display: flex;
+                        flex-flow: column;
+                        .inner-content {
+                            display: flex;
+                            .time {
+                                width: 100%;
+                            }
+                            p {
+                                padding: 0px;
+                                margin: 0px;
+                            }
+                        }
+                    }
+                }
+            }
+            button {
+                margin: 16px 0px 32px 130px
+            }
+        }
+    }
+    .send-us-wrapper {
+        h1 {
+            color: $green-primary-300;
+        }
+        p,
+        textarea {
+            color: $grey-500;
+        }
+        display: flex;
+        justify-content: center;
+        .send-us {
+            width: 850px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin-top: 180px;
+            margin-bottom: 96px;
+            input,
+            textarea {
+                width: 409px;
+                padding: 16px 52px 16px 16px;
+                border-radius: 6px;
+                border: 1px solid $grey-500;
+            }
+            .header-email {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+            }
+            textarea {
+                height: 192px;
+                width: 850px;
+                margin-bottom: 32px;
+            }
+            button {
+                align-self: flex-start;
+                width: 140px;
+                height: 48px;
+            }
+        }
+    }
+    .how-to-go {
+        .container {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+        h3,
+        h4 {
+            color: $green-primary-300;
+            margin: 0px;
+            padding-bottom: 0px;
+        }
+        p {
+            padding: 0px;
+        }
+        h3 {
+            margin-bottom: 48px;
+            margin-top: 96px;
+        }
+        h4 {
+            margin-bottom: 2px;
+        }
+        background-color: $orange-secondary-50;
+        .options {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 97px;
+        }
+        .metro,
+        .busses,
+        .small-busses {
+            width: 409px;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+footer .grey {
+  height: 12px;
+  background-color: #919191;
+}
+
+footer .black {
+  justify-content: space-between;
+  padding: 0px 75px 0px 75px;
+  display: flex;
+  max-height: 312px;
+  height: 100%;
+  background-color: #565656;
+}
+
+footer .black .big-eye img {
+  position: relative;
+  bottom: 91px;
+}
+
+footer .black .uls {
+  display: flex;
+}
+
+footer .black .uls ul {
+  list-style: none;
+  padding: 0px 24px 0px 0px;
+}
+
+footer .black .uls ul li {
+  padding-bottom: 12px;
+  color: #E6E6E6;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: none;
+}
+
+footer .black h5 {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+}
+
+footer .black .kids,
+footer .black .allCourses,
+footer .black .initiatives,
+footer .black .findUs {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+footer .black .allCourses {
+  padding-bottom: 90px;
+}
+
+footer .black .findUs {
+  padding-bottom: 30px;
+}
+
+footer .black .findUs p {
+  margin-top: 48px;
+  max-width: 177px;
+  color: #919191;
+}
+
+footer .black .findUs h5 {
+  margin-bottom: 24px;
+}
+
+footer .black .findUs .icons img {
+  margin-right: 30px;
+}
+
+footer .uls ul li:hover {
+  color: #41BEAD;
+  cursor: pointer;
+}
+
+footer .icons img {
+  width: 28px;
+  height: 28px;
+}
+
+footer .icons img:hover {
+  filter: invert(66%) sepia(81%) saturate(306%) hue-rotate(122deg) brightness(84%) contrast(91%);
+  cursor: pointer;
+}
