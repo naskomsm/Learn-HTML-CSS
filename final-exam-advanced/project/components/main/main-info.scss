@@ -1,0 +1,36 @@
+@import '../../base/colors';
+.main-info {
+    display: flex;
+    color: $grey-700;
+    align-items: center;
+    margin-bottom: 66px;
+    .text {
+        max-width: 739px;
+        max-height: 321px;
+        width: 100%;
+        height: 100%;
+        p {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .video {
+        max-width: 440px;
+        max-height: 248px;
+        width: 100%;
+        height: 100%;
+        margin: 0px 75px 0px 111px;
+        .girl {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            bottom: 50px;
+        }
+        .playBtn {
+            position: relative;
+            top: 110px;
+            z-index: 1;
+            left: 187px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.certificate-wrapper {
+  margin-top: 64px;
+  margin-bottom: 106px;
+}
+
+.certificate-wrapper .container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.certificate-img {
+  max-height: 265px;
+}
+
+.certificate-img p {
+  position: relative;
+  margin: 0px;
+  top: 140px;
+  left: 100px;
+}
+
+.certificate {
+  align-items: center;
+  max-width: 608px;
+  display: flex;
+}
+
+.certificate .medal {
+  position: relative;
+  right: 32px;
+  bottom: 35px;
+}
+
+.certificate .text {
+  margin-right: 32px;
+}

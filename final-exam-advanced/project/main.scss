@@ -1,0 +1,32 @@
+// *** Base ***
+@import './base/typography';
+@import './base/colors';
+@import './base/normalize';
+// *** Elements ***
+@import './elements/heading';
+@import './elements/paragraph';
+@import './elements/li';
+// *** Objects ***
+@import './objects/centered';
+@import './objects/container';
+// *** Components ***
+@import './components/general/button';
+@import './components/header/navigation';
+@import './components/header/nav';
+@import './components/header/header';
+@import './components/main/group';
+@import './components/main/main-info';
+@import './components/main/suitable';
+@import './components/main/dropdown';
+@import './components/main/program';
+@import './components/main/certificate';
+@import './components/main/classes';
+@import './components/footer/footer';
+@import './components/main/people';
+@import './components/main/teachers';
+@import './components/main/bosses';
+@import './components/main/join-us';
+@import './components/main/map';
+@import './components/main/contact-card';
+@import './components//main/send-us';
+@import './components/main/how-to-go';

@@ -1,0 +1,64 @@
+.contact-card {
+  background-color: #FFFFFF;
+  position: absolute;
+  padding: 32px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  width: 583px;
+  height: 446px;
+  top: 202px;
+  left: 75px;
+}
+
+.contact-card h3 {
+  color: #41BEAD;
+  margin: 24px 0px 24px 0px;
+}
+
+.contact-card p {
+  color: #565656;
+}
+
+.contact-card .time {
+  color: #FF9100;
+}
+
+.contact-card button {
+  margin: 16px 0px 32px 130px;
+}
+
+.info {
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.info .info-card {
+  margin-right: 24px;
+  width: 216px;
+}
+
+.info .working-time {
+  margin: 0px;
+}
+
+.info .working-time .content {
+  display: flex;
+  flex-flow: column;
+}
+
+.info .working-time .content .inner-content.first {
+  margin-bottom: 18px;
+}
+
+.info .working-time .content .inner-content {
+  display: flex;
+}
+
+.info .working-time .content .inner-content .time {
+  width: 100%;
+}
+
+.info .working-time .content .inner-content p {
+  padding: 0px;
+  margin: 0px;
+}

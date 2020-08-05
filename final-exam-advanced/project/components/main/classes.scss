@@ -1,0 +1,39 @@
+@import '../../base/colors';
+.classes {
+    margin-bottom: 148px;
+    .container {
+        display: flex;
+    }
+}
+
+.classes-time,
+.classes-additional {
+    display: flex;
+    max-width: 608px;
+    width: 100%;
+    .time-icon {
+        position: relative;
+        bottom: 145px;
+    }
+}
+
+.classes-time,
+.classes-pipe {
+    margin-right: 32px;
+}
+
+.classes-time {
+    img {
+        right: 32px;
+    }
+}
+
+.classes-additional {
+    .lamp {
+        position: relative;
+        bottom: 150px;
+    }
+    .text {
+        margin-left: 32px;
+    }
+}

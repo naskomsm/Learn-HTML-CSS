@@ -1,0 +1,33 @@
+@import '../../base/colors';
+.navigation-wrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    article {
+        img {
+            margin: 0px 32px 0px 32px;
+        }
+    }
+}
+
+.navigation {
+    ul {
+        display: flex;
+        flex-flow: row wrap;
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        li {
+            color: $grey-700;
+            padding: 29px 12px;
+            margin-right: 24px;
+            &:hover {
+                color: $orange-secondary-800;
+                cursor: pointer;
+            }
+        }
+         :last-child {
+            margin: 0px;
+        }
+    }
+}

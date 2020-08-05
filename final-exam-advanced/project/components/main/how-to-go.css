@@ -1,0 +1,41 @@
+.how-to-go {
+  background-color: #FFF8E1;
+}
+
+.how-to-go .container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.how-to-go h3,
+.how-to-go h4 {
+  color: #41BEAD;
+  margin: 0px;
+  padding-bottom: 0px;
+}
+
+.how-to-go p {
+  padding: 0px;
+}
+
+.how-to-go h3 {
+  margin-bottom: 48px;
+  margin-top: 96px;
+}
+
+.how-to-go h4 {
+  margin-bottom: 2px;
+}
+
+.how-to-go .options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 97px;
+}
+
+.how-to-go .metro,
+.how-to-go .busses,
+.how-to-go .small-busses {
+  width: 409px;
+}

@@ -1,0 +1,14 @@
+nav {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo .arrow {
+  margin-right: 16px;
+}

@@ -1,0 +1,46 @@
+.send-us-wrapper {
+    h1 {
+        color: $green-primary-300;
+    }
+    p,
+    textarea {
+        color: $grey-500;
+    }
+    display: flex;
+    justify-content: center;
+}
+
+.send-us {
+    width: 850px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 180px;
+    margin-bottom: 96px;
+    h1 {
+        margin-bottom: 32px;
+    }
+    input,
+    textarea {
+        width: 409px;
+        padding: 16px 52px 16px 16px;
+        border-radius: 6px;
+        border: 1px solid $grey-500;
+    }
+    .header-email {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    textarea {
+        height: 192px;
+        width: 850px;
+        margin-bottom: 32px;
+    }
+    button {
+        align-self: flex-start;
+        width: 140px;
+        height: 48px;
+    }
+}

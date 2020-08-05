@@ -1,0 +1,41 @@
+@import '../../base/colors';
+.header-info {
+    height: 302px;
+    flex-flow: column;
+    background-color: $blue-400;
+    h1 {
+        color: $white;
+        text-align: center;
+        margin: 0px 398px 104px 398px;
+        width: 644px;
+        height: 88px;
+    }
+    .newbie {
+        background-color: $orange-secondary-500;
+        text-align: center;
+        padding: 4px 8px;
+        color: $white;
+        border-radius: 4px;
+        margin: 64px 0px 24px 0px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+    }
+}
+
+.header-trainers {
+    background-color: $orange-secondary-600;
+    .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    h1,
+    p {
+        color: $white;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+    }
+    p {
+        max-width: 860px;
+    }
+}

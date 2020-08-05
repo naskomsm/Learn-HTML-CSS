@@ -1,0 +1,38 @@
+.bosses {
+  margin-bottom: 96px;
+  display: flex;
+}
+
+.bosses .profile-pic {
+  display: flex;
+  align-self: flex-start;
+  margin-right: 32px;
+  border-radius: 50%;
+  border: 8px solid #41BEAD;
+}
+
+.boss {
+  margin-right: 32px;
+  display: flex;
+}
+
+.boss .grey-p {
+  color: #B2B2B2;
+  margin-bottom: 24px;
+}
+
+.boss h3,
+.boss p {
+  margin: 0px;
+  padding: 0px;
+  color: #565656;
+}
+
+.boss h3 {
+  margin-bottom: 8px;
+  color: #41BEAD;
+}
+
+.boss .text {
+  max-width: 409px;
+}

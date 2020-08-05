@@ -1,0 +1,16 @@
+.dropdowns {
+  max-width: 675px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.dropdowns h5 {
+  margin-bottom: 1px;
+}
+
+.dropdown-arrow {
+  position: relative;
+  top: 30px;
+  left: 310px;
+}

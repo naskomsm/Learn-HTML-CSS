@@ -1,0 +1,40 @@
+.main-info {
+  display: flex;
+  color: #565656;
+  align-items: center;
+  margin-bottom: 66px;
+}
+
+.main-info .text {
+  max-width: 739px;
+  max-height: 321px;
+  width: 100%;
+  height: 100%;
+}
+
+.main-info .text p {
+  width: 100%;
+  height: 100%;
+}
+
+.main-info .video {
+  max-width: 440px;
+  max-height: 248px;
+  width: 100%;
+  height: 100%;
+  margin: 0px 75px 0px 111px;
+}
+
+.main-info .video .girl {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  bottom: 50px;
+}
+
+.main-info .video .playBtn {
+  position: relative;
+  top: 110px;
+  z-index: 1;
+  left: 187px;
+}

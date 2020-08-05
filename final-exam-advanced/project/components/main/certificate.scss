@@ -1,0 +1,33 @@
+@import '../../base/colors';
+.certificate-wrapper {
+    margin-top: 64px;
+    margin-bottom: 106px;
+    .container {
+        justify-content: space-between;
+        display: flex;
+    }
+}
+
+.certificate-img {
+    max-height: 265px;
+    p {
+        position: relative;
+        margin: 0px;
+        top: 140px;
+        left: 100px;
+    }
+}
+
+.certificate {
+    align-items: center;
+    max-width: 608px;
+    display: flex;
+    .medal {
+        position: relative;
+        right: 32px;
+        bottom: 35px;
+    }
+    .text {
+        margin-right: 32px;
+    }
+}

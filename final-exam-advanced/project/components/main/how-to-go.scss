@@ -1,0 +1,35 @@
+@import '../../base/colors';
+.how-to-go {
+    background-color: $orange-secondary-50;
+    .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    h3,
+    h4 {
+        color: $green-primary-300;
+        margin: 0px;
+        padding-bottom: 0px;
+    }
+    p {
+        padding: 0px;
+    }
+    h3 {
+        margin-bottom: 48px;
+        margin-top: 96px;
+    }
+    h4 {
+        margin-bottom: 2px;
+    }
+    .options {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 97px;
+    }
+    .metro,
+    .busses,
+    .small-busses {
+        width: 409px;
+    }
+}

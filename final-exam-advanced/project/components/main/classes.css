@@ -1,0 +1,38 @@
+.classes {
+  margin-bottom: 148px;
+}
+
+.classes .container {
+  display: flex;
+}
+
+.classes-time,
+.classes-additional {
+  display: flex;
+  max-width: 608px;
+  width: 100%;
+}
+
+.classes-time .time-icon,
+.classes-additional .time-icon {
+  position: relative;
+  bottom: 145px;
+}
+
+.classes-time,
+.classes-pipe {
+  margin-right: 32px;
+}
+
+.classes-time img {
+  right: 32px;
+}
+
+.classes-additional .lamp {
+  position: relative;
+  bottom: 150px;
+}
+
+.classes-additional .text {
+  margin-left: 32px;
+}

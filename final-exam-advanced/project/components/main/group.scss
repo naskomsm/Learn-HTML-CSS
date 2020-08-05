@@ -1,0 +1,39 @@
+@import '../../base/colors';
+.groups-card {
+    position: relative;
+    bottom: 56px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 1290px;
+    height: 112px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+.groups {
+    display: flex;
+    flex-flow: row wrap;
+    width: 987px;
+    justify-content: space-evenly;
+}
+
+.group {
+    align-items: center;
+    display: flex;
+    h4,
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
+    h4 {
+        color: $orange-secondary-800;
+        margin-top: 6px;
+    }
+    .img {
+        margin-right: 24px;
+    }
+}

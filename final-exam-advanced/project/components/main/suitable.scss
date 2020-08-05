@@ -1,0 +1,44 @@
+@import '../../base/colors';
+.suitable {
+    margin-bottom: 64px;
+    padding-top: 66px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bubble {
+    position: relative;
+    bottom: 20px;
+}
+
+.appropriate {
+    width: 552px;
+    height: 112px;
+    display: flex;
+    h2 {
+        color: $grey-700;
+        font-weight: 600;
+    }
+    img {
+        position: relative;
+        bottom: 39px;
+        right: 32px;
+    }
+}
+
+.after {
+    display: flex;
+    width: 552px;
+    height: 201px;
+    h2 {
+        padding: 0px;
+        color: $grey-700;
+        font-weight: 600;
+        margin: 0px;
+    }
+    img {
+        position: relative;
+        bottom: 118px;
+        right: 32px;
+    }
+}
